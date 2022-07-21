@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.7f06aacb.css",
+    "main.css": "/Resume/static/css/main.6ed277f0.css",
     "main.js": "/Resume/static/js/main.d96f6643.js",
     "static/js/787.a71561b8.chunk.js": "/Resume/static/js/787.a71561b8.chunk.js",
     "static/media/Background_08.mov": "/Resume/static/media/Background_08.c41dbd34f6ecdf0a4205.mov",
@@ -15,12 +15,12 @@
     "static/media/TheKeeperApp.png": "/Resume/static/media/TheKeeperApp.5ffca2da276508ea71f1.png",
     "index.html": "/Resume/index.html",
     "static/media/loader.svg": "/Resume/static/media/loader.271fc4ca5fb0c0e73a30b791bf078945.svg",
-    "main.7f06aacb.css.map": "/Resume/static/css/main.7f06aacb.css.map",
+    "main.6ed277f0.css.map": "/Resume/static/css/main.6ed277f0.css.map",
     "main.d96f6643.js.map": "/Resume/static/js/main.d96f6643.js.map",
     "787.a71561b8.chunk.js.map": "/Resume/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f06aacb.css",
+    "static/css/main.6ed277f0.css",
     "static/js/main.d96f6643.js"
   ]
 }
