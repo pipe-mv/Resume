@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.6ed277f0.css",
-    "main.js": "/Resume/static/js/main.d96f6643.js",
+    "main.css": "/Resume/static/css/main.6425ac46.css",
+    "main.js": "/Resume/static/js/main.58e59afe.js",
     "static/js/787.a71561b8.chunk.js": "/Resume/static/js/787.a71561b8.chunk.js",
     "static/media/Background_08.mov": "/Resume/static/media/Background_08.c41dbd34f6ecdf0a4205.mov",
     "static/media/ProfileImage.png": "/Resume/static/media/ProfileImage.0424993180e9809ce223.png",
@@ -11,16 +11,16 @@
     "static/media/TicTacToe.png": "/Resume/static/media/TicTacToe.b994439699b4a9fdf0e8.png",
     "static/media/Felipe_Marin_Resume-2.pdf": "/Resume/static/media/Felipe_Marin_Resume-2.fabe823152d2998ea40c.pdf",
     "static/media/IdeasBoard.png": "/Resume/static/media/IdeasBoard.53219a4a35fe1fefa2a8.png",
+    "static/media/Task-Planner.JPG": "/Resume/static/media/Task-Planner.130c50e474225bd71548.JPG",
     "static/media/wave-blue.png": "/Resume/static/media/wave-blue.76a61e5d72a7806a6bce.png",
-    "static/media/TheKeeperApp.png": "/Resume/static/media/TheKeeperApp.5ffca2da276508ea71f1.png",
     "index.html": "/Resume/index.html",
     "static/media/loader.svg": "/Resume/static/media/loader.271fc4ca5fb0c0e73a30b791bf078945.svg",
-    "main.6ed277f0.css.map": "/Resume/static/css/main.6ed277f0.css.map",
-    "main.d96f6643.js.map": "/Resume/static/js/main.d96f6643.js.map",
+    "main.6425ac46.css.map": "/Resume/static/css/main.6425ac46.css.map",
+    "main.58e59afe.js.map": "/Resume/static/js/main.58e59afe.js.map",
     "787.a71561b8.chunk.js.map": "/Resume/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed277f0.css",
-    "static/js/main.d96f6643.js"
+    "static/css/main.6425ac46.css",
+    "static/js/main.58e59afe.js"
   ]
 }
