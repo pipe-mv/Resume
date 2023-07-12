@@ -1,0 +1,28 @@
+.technology-icons {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+    /* justify-content: center; */
+    background-color: #72f5fe;
+    /* height:max-content; */
+    height:3.5rem;
+    width: 3.5rem;
+
+}
+
+.technology-icon {
+    width: 4.5rem;
+    height: auto;
+    transition: 0.3s;
+    justify-items: center;
+  }
+
+  .technology-icon:hover {
+    transform: scale(1.1);
+  }
+
+  #technologies .technology-icons .technology-icon {
+    width: 5rem;
+  }
+  

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Personal Portfolio site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is my personal resume or portfolio
 
 ## Available Scripts
 
