@@ -1,6 +1,6 @@
 import ProfileImage from "../assets/ProfileImage.png";
 import { saveAs } from "file-saver";
-import Resume from "../assets/Felipe_Marin_Resume-2.pdf";
+import Resume from "../assets/Felipe_Marin_Resume.pdf";
 
 // https://drive.google.com/drive/folders/15uD7OE3hE_wV2KG70AXis5R7DpMZ6eUN?usp=sharing
 const About = () => {
