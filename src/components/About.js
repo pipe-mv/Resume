@@ -17,7 +17,7 @@ const About = () => {
             <h5>Frontend Developer</h5>
           </aside>
           <p>
-            Proactive, diligent and meticulous Junior React Developer with ample
+            I am a proactive, diligent and meticulous Junior React Developer with ample
             knowledge of React JS and the entire software practice involved in
             the production of applications through this library.
           </p>
