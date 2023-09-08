@@ -1,4 +1,4 @@
-import ProfileImage from "../assets/ProfileImage.png";
+import ProfileImage from "../assets/ProfileImage.jpg";
 import { saveAs } from "file-saver";
 import Resume from "../assets/Felipe_Marin_Resume.pdf";
 
