@@ -5,7 +5,8 @@ import Resume from "../assets/Felipe_Marin_Resume.pdf";
 // https://drive.google.com/drive/folders/15uD7OE3hE_wV2KG70AXis5R7DpMZ6eUN?usp=sharing
 const About = () => {
   const downloadFile = () => {
-    saveAs(Resume);
+    let fileName = "Felipe_Marin_Resume.pdf";
+    saveAs(Resume, fileName);
   };
 
   return (
@@ -17,9 +18,9 @@ const About = () => {
             <h5>Frontend Developer</h5>
           </aside>
           <p>
-            I am a proactive, diligent and meticulous Junior React Developer with ample
-            knowledge of React JS and the entire software practice involved in
-            the production of applications through this library.
+            I am a proactive, diligent and meticulous Junior React Developer
+            with ample knowledge of React JS and the entire software practice
+            involved in the production of applications through this library.
           </p>
           <p>
             I have a passion for programming which I have demonstrated through
@@ -45,7 +46,7 @@ const About = () => {
         </article>
         <article className="btn-container">
           <button className="btn" onClick={downloadFile}>
-            DOWNLOAD MY CV
+            DOWNLOAD MY RESUME
           </button>
         </article>
       </section>

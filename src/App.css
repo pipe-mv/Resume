@@ -523,7 +523,7 @@ progress::-moz-progress-bar {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  padding-left: 20%;
+  padding: 0 20%;
 }
 
 .btn {
