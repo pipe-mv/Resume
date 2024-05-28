@@ -1,5 +1,4 @@
 import { useForm } from "../hooks/useForm";
-// import Message from "./Message";
 import Loader from "../assets/loader.svg";
 import ContactFormModal from "./ContactFormModal";
 
@@ -64,7 +63,7 @@ const ContactForm = () => {
           value={form.name}
           onBlur={handleBlur}
           onChange={handleChange}
-          //   pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+          pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
           required
         />
         {errors.name && <p style={styles}> {errors.name} </p>}
@@ -73,7 +72,7 @@ const ContactForm = () => {
           name="email"
           placeholder="Please enter your e-mail *"
           title="Email only accepts E-mail format 'yourName@yourEmail.com' "
-          //   pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+          pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
           value={form.email}
           onBlur={handleBlur}
           onChange={handleChange}

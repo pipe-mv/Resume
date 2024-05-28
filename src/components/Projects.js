@@ -2,7 +2,7 @@ import { useState } from "react";
 import Modal from "./Modal";
 import ProjectsDb from "./ProjectsDB";
 
-const Projects2 = () => {
+const Projects = () => {
   const [modalOpener, setModalOpener] = useState("");
   const [project, setProject] = useState("");
 
@@ -48,4 +48,4 @@ const Projects2 = () => {
   );
 };
 
-export default Projects2;
+export default Projects;

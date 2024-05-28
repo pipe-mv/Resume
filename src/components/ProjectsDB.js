@@ -1,5 +1,6 @@
 import { Technologies } from "./TechnoIcons";
 
+// I only show 6 project more than this could be many to show
 const ProjectsDb = [
   {
     id: 1,
@@ -44,11 +45,7 @@ const ProjectsDb = [
       Technologies.HTML5,
       Technologies.CSS3,
     ],
-    concepts: [
-      "Emotion CSS",
-      "Bootstrap",
-      "Github-Pages",
-    ],
+    concepts: ["Emotion CSS", "Bootstrap", "Github-Pages"],
     image: require("../assets/Task-Planner.JPG"),
     date: "20 / 06 / 2023",
     link_repository: "https://github.com/pipe-mv/Task-Planner.git",

@@ -5,7 +5,7 @@ import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Projects2 from "./components/Projects2";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Projects2 />
+      <Projects />
       <Contact />
       <ContactForm />
       <Footer />

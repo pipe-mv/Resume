@@ -1,12 +1,13 @@
 import recycleLogo from "../assets/icon-recycle.png";
 import appleLogo from "../assets/icon-apple.png";
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="uncopyright">
         <img src={recycleLogo} alt="recycle logo" />
         <p>
-          Uncopyright &copy; 2022{" "}
+          Uncopyright &copy; {year}{" "}
           <a href="https://github.com/pipe-mv" target="_blank" rel="noreferrer">
             Felipe Marin, &nbsp;
           </a>

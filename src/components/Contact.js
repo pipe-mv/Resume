@@ -1,3 +1,5 @@
+//There is many commented line becasue those icons can easily be used in the future
+
 const Contact = () => {
   return (
     <div>

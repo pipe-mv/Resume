@@ -5,8 +5,6 @@ const ContactFormModal = ({ response }) => {
 
   const [close, setClose] = useState(true);
 
-  console.log(response);
-
   const closeModal = (close) => {
     return setClose(!close);
   };

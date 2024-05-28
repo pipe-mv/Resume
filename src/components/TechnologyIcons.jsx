@@ -1,6 +1,5 @@
-import { devIconsCdnUrl,  } from './TechnoIcons';
+import { devIconsCdnUrl } from "./TechnoIcons";
 
-// console.log(technologies); 
 const TechnologyIcons = ({ technologies }) => (
   <div className="technology-icons">
     {technologies.map((technology) => (
