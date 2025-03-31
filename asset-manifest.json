@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Resume/static/css/main.3046ab3c.css",
-    "main.js": "/Resume/static/js/main.9fd5e2b1.js",
+    "main.js": "/Resume/static/js/main.896a8da1.js",
     "static/js/787.a71561b8.chunk.js": "/Resume/static/js/787.a71561b8.chunk.js",
     "static/media/Background_08.mov": "/Resume/static/media/Background_08.c41dbd34f6ecdf0a4205.mov",
     "static/media/MusicPlayer.png": "/Resume/static/media/MusicPlayer.bcfa07fa945d8fab6b2c.png",
     "static/media/FilmLibrary.png": "/Resume/static/media/FilmLibrary.b9ceb86360fba034d65a.png",
     "static/media/ToDoList.png": "/Resume/static/media/ToDoList.e33d74052f20950e5e1e.png",
+    "static/media/Felipe_Marin_Resume.pdf": "/Resume/static/media/Felipe_Marin_Resume.0bea1ee81427e7d81fa3.pdf",
     "static/media/TicTacToe.png": "/Resume/static/media/TicTacToe.b994439699b4a9fdf0e8.png",
-    "static/media/Felipe_Marin_Resume.pdf": "/Resume/static/media/Felipe_Marin_Resume.4ffdb3bfd194ac3b72bb.pdf",
     "static/media/IdeasBoard.png": "/Resume/static/media/IdeasBoard.53219a4a35fe1fefa2a8.png",
     "static/media/Task-Planner.JPG": "/Resume/static/media/Task-Planner.130c50e474225bd71548.JPG",
     "static/media/wave-blue.png": "/Resume/static/media/wave-blue.76a61e5d72a7806a6bce.png",
@@ -16,11 +16,11 @@
     "index.html": "/Resume/index.html",
     "static/media/loader.svg": "/Resume/static/media/loader.0da2a24ae3068041385c2ba655958f96.svg",
     "main.3046ab3c.css.map": "/Resume/static/css/main.3046ab3c.css.map",
-    "main.9fd5e2b1.js.map": "/Resume/static/js/main.9fd5e2b1.js.map",
+    "main.896a8da1.js.map": "/Resume/static/js/main.896a8da1.js.map",
     "787.a71561b8.chunk.js.map": "/Resume/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3046ab3c.css",
-    "static/js/main.9fd5e2b1.js"
+    "static/js/main.896a8da1.js"
   ]
 }
