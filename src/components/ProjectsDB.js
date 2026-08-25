@@ -1,10 +1,10 @@
 import { Technologies } from "./TechnoIcons";
-import FilmLibraryImage from "../assets/FilmLibrary.png";
-import MusicPlayerImage from "../assets/MusicPlayer.png";
-import TaskPlannerImage from "../assets/Task-Planner.JPG";
-import TicTacToeImage from "../assets/TicTacToe.png";
-import ToDoListImage from "../assets/ToDoList.png";
-import TravellerAppImage from "../assets/TravellerApp.png";
+import FilmLibraryImage from "../assets/FilmLibrary.webp";
+import MusicPlayerImage from "../assets/MusicPlayer.webp";
+import TaskPlannerImage from "../assets/Task-Planner.webp";
+import TicTacToeImage from "../assets/TicTacToe.webp";
+import ToDoListImage from "../assets/ToDoList.webp";
+import TravellerAppImage from "../assets/TravellerApp.webp";
 
 // I only show 6 project more than this could be many to show
 const ProjectsDb = [
