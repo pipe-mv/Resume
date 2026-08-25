@@ -1,8 +1,17 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import backgroundVideo from "../assets/Background_08.mp4";
 
 const Home = () => {
   const videoRef = useRef(null);
+
+  const setVideoElement = (video) => {
+    videoRef.current = video;
+
+    if (video) {
+      video.defaultMuted = true;
+      video.muted = true;
+    }
+  };
 
   const playVideo = () => {
     if (videoRef.current) {
@@ -17,17 +26,46 @@ const Home = () => {
     }
   };
 
+  useEffect(() => {
+    const resumeVideo = () => playVideo();
+    const interactionEvents = [
+      "pointerdown",
+      "touchstart",
+      "keydown",
+      "mousemove",
+      "scroll",
+      "wheel",
+    ];
+    const autoplayRetry = window.setTimeout(playVideo, 1000);
+
+    interactionEvents.forEach((eventName) => {
+      window.addEventListener(eventName, resumeVideo, {
+        once: true,
+        passive: true,
+      });
+    });
+
+    return () => {
+      window.clearTimeout(autoplayRetry);
+
+      interactionEvents.forEach((eventName) => {
+        window.removeEventListener(eventName, resumeVideo);
+      });
+    };
+  }, []);
+
   return (
     <section id="home" className="home hero-wrapper">
       <div className="hero-image hero" onClick={playVideo}>
         <aside className="hero-image-opacity hero-content">
           <video
-            ref={videoRef}
+            ref={setVideoElement}
             autoPlay
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="auto"
+            onCanPlay={playVideo}
             aria-hidden="true"
           >
             <source src={backgroundVideo} type="video/mp4" />
