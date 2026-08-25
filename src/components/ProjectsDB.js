@@ -1,4 +1,10 @@
 import { Technologies } from "./TechnoIcons";
+import FilmLibraryImage from "../assets/FilmLibrary.png";
+import IdeasBoardImage from "../assets/IdeasBoard.png";
+import MusicPlayerImage from "../assets/MusicPlayer.png";
+import TaskPlannerImage from "../assets/Task-Planner.JPG";
+import TicTacToeImage from "../assets/TicTacToe.png";
+import ToDoListImage from "../assets/ToDoList.png";
 
 // I only show 6 project more than this could be many to show
 const ProjectsDb = [
@@ -29,7 +35,7 @@ const ProjectsDb = [
       "Local Storage",
       "Styled Components",
     ],
-    image: require("../assets/MusicPlayer.png"),
+    image: MusicPlayerImage,
     date: "05 / 04 / 2022",
     link_repository: "https://github.com/pipe-mv/MusicPlayer",
     link_website: "https://pipe-mv.github.io/MusicPlayer/",
@@ -46,7 +52,7 @@ const ProjectsDb = [
       Technologies.CSS3,
     ],
     concepts: ["Emotion CSS", "Bootstrap", "Github-Pages"],
-    image: require("../assets/Task-Planner.JPG"),
+    image: TaskPlannerImage,
     date: "20 / 06 / 2023",
     link_repository: "https://github.com/pipe-mv/Task-Planner.git",
     link_website: "https://pipe-mv.github.io/Task-Planner/",
@@ -69,7 +75,7 @@ const ProjectsDb = [
       "Github-Pages",
       "Styled Components",
     ],
-    image: require("../assets/ToDoList.png"),
+    image: ToDoListImage,
     date: "24 / 12 / 2020",
     link_repository: "https://github.com/pipe-mv/to-do-list",
     link_website: "https://pipe-mv.github.io/to-do-list/",
@@ -99,7 +105,7 @@ const ProjectsDb = [
       "Github-Pages",
       "Styled Components",
     ],
-    image: require("../assets/IdeasBoard.png"),
+    image: IdeasBoardImage,
     date: "24 / 12 / 2020",
     link_repository: "https://github.com/pipe-mv/ideas-board",
     link_website: "https://ideas-board-felmv.netlify.app",
@@ -123,7 +129,7 @@ const ProjectsDb = [
       "Local Storage API",
       "Styled Components",
     ],
-    image: require("../assets/TicTacToe.png"),
+    image: TicTacToeImage,
     date: "24 / 12 / 2020",
     link_repository: "https://github.com/pipe-mv/tic-tac-toe",
     link_website: "https://pipe-mv.github.io/tic-tac-toe/",
@@ -152,7 +158,7 @@ const ProjectsDb = [
       "Github-Pages",
       "Styled Components",
     ],
-    image: require("../assets/FilmLibrary.png"),
+    image: FilmLibraryImage,
     date: "24 / 12 / 2020",
     link_repository: "https://github.com/pipe-mv/film-library",
     link_website: "https://pipe-mv.github.io/film-library/",
