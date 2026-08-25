@@ -1,15 +1,42 @@
 import { Technologies } from "./TechnoIcons";
 import FilmLibraryImage from "../assets/FilmLibrary.png";
-import IdeasBoardImage from "../assets/IdeasBoard.png";
 import MusicPlayerImage from "../assets/MusicPlayer.png";
 import TaskPlannerImage from "../assets/Task-Planner.JPG";
 import TicTacToeImage from "../assets/TicTacToe.png";
 import ToDoListImage from "../assets/ToDoList.png";
+import TravellerAppImage from "../assets/TravellerApp.png";
 
 // I only show 6 project more than this could be many to show
 const ProjectsDb = [
   {
     id: 1,
+    name: "Traveller App",
+    description:
+      "A cross-platform travel companion that helps users discover hotels, attractions and restaurants around destinations worldwide.",
+    technologies: [
+      Technologies.JAVASCRIPT,
+      Technologies.REACT_NATIVE,
+      Technologies.EXPO,
+      Technologies.NODEJS,
+    ],
+    concepts: [
+      "React Native",
+      "Expo",
+      "React Navigation",
+      "NativeWind",
+      "Axios",
+      "Google Places Autocomplete",
+      "Travel Advisor API",
+      "EAS Updates",
+      "Cross-platform Development",
+    ],
+    image: TravellerAppImage,
+    date: "23 / 09 / 2025",
+    link_repository:
+      "https://github.com/pipe-mv/react-native-traveller-app",
+  },
+  {
+    id: 2,
     name: "Music Player",
     description:
       "The Music Player app will allow the user to search and play the video of any song. Additionally it will allow the users to save theirs favorite songs in a carousel easy to scroll and search for the favorite song once it is saved!",
@@ -41,7 +68,7 @@ const ProjectsDb = [
     link_website: "https://pipe-mv.github.io/MusicPlayer/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Task Planner",
     description:
       "This repository contains the code for a wall where you can write, edit and delete a 'tasks'.",
@@ -58,7 +85,7 @@ const ProjectsDb = [
     link_website: "https://pipe-mv.github.io/Task-Planner/",
   },
   {
-    id: 3,
+    id: 4,
     name: "To Do List",
     description:
       "This repository contains the code for a wall where you can write, edit and delete a 'to do list'.",
@@ -80,8 +107,8 @@ const ProjectsDb = [
     link_repository: "https://github.com/pipe-mv/to-do-list",
     link_website: "https://pipe-mv.github.io/to-do-list/",
   },
-  {
-    id: 4,
+  /* {
+    id: 5,
     name: "Ideas Board",
     description:
       "This is an idea board with a pre-built back-end server where you can temporally save the users' id and password plus every user is able to add, edit and delete ideas from the board by selecting the user's link.",
@@ -109,9 +136,9 @@ const ProjectsDb = [
     date: "24 / 12 / 2020",
     link_repository: "https://github.com/pipe-mv/ideas-board",
     link_website: "https://ideas-board-felmv.netlify.app",
-  },
+  }, */
   {
-    id: 5,
+    id: 6,
     name: "Tic Tac Toe",
     description:
       "This repository contains the code for existing tic-tac-toe game programming in JavaScript using React.",
@@ -135,7 +162,7 @@ const ProjectsDb = [
     link_website: "https://pipe-mv.github.io/tic-tac-toe/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Film Library",
     description:
       "This is a repo that houses the base code for a React.js film application. By the final stage of the project, the film app will have a list of all the recent popular movies; a user can scroll through them, click one for more details, and save it to their favorites.",

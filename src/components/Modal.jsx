@@ -77,9 +77,11 @@ const Modal = ({ project, closeModal }) => {
                     />
                   </svg>
                 </a>
-                <a href={link_website} target="_blank" rel="noreferrer">
-                  Visit the Website
-                </a>
+                {link_website && (
+                  <a href={link_website} target="_blank" rel="noreferrer">
+                    Visit the Website
+                  </a>
+                )}
               </small>
             </aside>
           </div>
