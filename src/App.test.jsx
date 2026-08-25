@@ -6,5 +6,6 @@ test("renders the portfolio's main content", () => {
 
   expect(screen.getByRole("heading", { name: /felipe marin/i })).toBeInTheDocument();
   expect(screen.getByRole("heading", { name: /my projects/i })).toBeInTheDocument();
+  expect(screen.getByRole("heading", { name: /traveller app/i })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: /download my resume/i })).toBeInTheDocument();
 });

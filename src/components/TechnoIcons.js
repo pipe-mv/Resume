@@ -45,6 +45,7 @@ export const Technologies = {
     fullname: "Firebase",
     iconSuffix: "-plain",
   },
+  EXPO: { simplename: "expo", fullname: "Expo", iconSuffix: "-original" },
   HTML5: {
     simplename: "html5",
     fullname: "HTML5",
@@ -76,6 +77,11 @@ export const Technologies = {
     iconSuffix: "-original-wordmark",
   },
   REACT: { simplename: "react", fullname: "React.js", iconSuffix: "-original" },
+  REACT_NATIVE: {
+    simplename: "react",
+    fullname: "React Native",
+    iconSuffix: "-original",
+  },
   SASS: { simplename: "sass", fullname: "Sass", iconSuffix: "-original" },
   TYPESCRIPT: {
     simplename: "typescript",
