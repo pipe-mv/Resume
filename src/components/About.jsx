@@ -1,4 +1,4 @@
-import ProfileImage from "../assets/ProfileImage.jpg";
+import ProfileImage from "../assets/ProfileImage-edited.jpg";
 import { saveAs } from "file-saver";
 import Resume from "../assets/Felipe_Marin_Resume.pdf";
 
@@ -15,36 +15,42 @@ const About = () => {
         <article className="text-lg-right">
           <aside className="text-center text-lg-right">
             <h1>Felipe Marin</h1>
-            <h5>Frontend Developer</h5>
+            <h5>Lead Web Developer</h5>
           </aside>
           <p>
-            I am a proactive, diligent and meticulous Junior React Developer
-            with ample knowledge of React JS and the entire software practice
-            involved in the production of applications through this library.
+            I&apos;m a Lead Web Developer experienced in building and maintaining
+            full-stack web and mobile applications using a broad range of
+            technologies, including React, React Native, TypeScript, Firebase
+            and Node.js. I enjoy transforming ideas into responsive, reliable
+            and user-friendly digital products.
           </p>
           <p>
-            I have a passion for programming which I have demonstrated through
-            years of self-study with commitment, initiative and desire to learn
-            the different languages required to code applications.
+            I have a genuine passion for programming, demonstrated through
+            years of committed self-study, personal projects and continuous
+            learning. My initiative and curiosity drive me to expand my
+            technical knowledge, explore new technologies and develop the skills
+            required to build effective applications.
           </p>
           <p>
-            Additionally, I have extensive and solid knowledge experience across
-            a broad range of different software in a diverse range of industries
-            such as: Retail, Foreign Exchange, Exporting, Outsourcing and
-            Building companies. I possess proven ability to combine vision,
-            decision-making and strong business acumen with well-developed
-            project management and leadership qualities to support successful
-            company operations.
+            At QuickSite Guru, I have contributed across frontend and backend
+            development while supporting application architecture, code reviews,
+            deployments and developer mentoring. I value maintainable code,
+            effective collaboration and continuous improvement throughout the
+            development lifecycle.
+          </p>
+          <p>
+            My background in project management, accounting and data coordination
+            gives me a strong understanding of how technology supports real
+            business needs. I bring technical curiosity, attention to detail and
+            a practical problem-solving mindset to every project.
           </p>
         </article>
-        <article>
+        <article className="about-visual">
           <img
             className="gray-scale"
             src={ProfileImage}
-            alt="profile-pipe_photo"
+            alt="Felipe Marin"
           />
-        </article>
-        <article className="btn-container">
           <button className="btn" onClick={downloadFile}>
             DOWNLOAD MY RESUME
           </button>

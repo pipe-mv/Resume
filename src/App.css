@@ -525,15 +525,6 @@ progress::-moz-progress-bar {
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
-.btn-container {
-  grid-column: 2/3;
-  align-content: center;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  padding: 0 20%;
-}
-
 .btn {
   border-radius: 0.5rem;
   padding: 1rem 1rem 1rem;
@@ -625,6 +616,17 @@ button:hover {
 /* ********** Site Styles ********** */
 .about > article {
   margin-bottom: 2rem;
+}
+
+.about-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about-visual img {
+  width: 100%;
 }
 .contact-card {
   align-items: center;
@@ -852,9 +854,34 @@ button:hover {
 @media screen and (min-width: 1024px) {
   .about {
     display: grid;
-    grid-template-columns: repeat(2, 30%);
-    justify-content: space-around;
-    align-content: center;
+    grid-template-columns: minmax(0, 55%) minmax(280px, 35%);
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5%;
+  }
+
+  .about > article {
+    margin-bottom: 0;
+  }
+
+  .about > article:first-child,
+  .about > article:first-child aside {
+    text-align: left;
+  }
+
+  .about-visual {
+    justify-self: center;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .about-visual img {
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  .about-visual .btn {
+    width: 100%;
   }
 
   .contact-cards {
