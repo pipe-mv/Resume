@@ -15,10 +15,10 @@ const About = () => {
         <article className="text-lg-right">
           <aside className="text-center text-lg-right">
             <h1>Felipe Marin</h1>
-            <h5>Lead Web Developer</h5>
+            <h5>Full-Stack Developer</h5>
           </aside>
           <p>
-            I&apos;m a Lead Web Developer experienced in building and maintaining
+            I&apos;m a Full-Stack Developer experienced in building and maintaining
             full-stack web and mobile applications using a broad range of
             technologies, including React, React Native, TypeScript, Firebase
             and Node.js. I enjoy transforming ideas into responsive, reliable
@@ -32,11 +32,12 @@ const About = () => {
             required to build effective applications.
           </p>
           <p>
-            At QuickSite Guru, I have contributed across frontend and backend
-            development while supporting application architecture, code reviews,
-            deployments and developer mentoring. I value maintainable code,
-            effective collaboration and continuous improvement throughout the
-            development lifecycle.
+            As a Lead Developer at QuickSite Guru, I led and contributed to
+            full-stack web application development across frontend and backend
+            systems. I also supported application architecture, code reviews,
+            deployments, task coordination and developer mentoring. I value
+            maintainable code, effective collaboration and continuous
+            improvement throughout the development lifecycle.
           </p>
           <p>
             My background in project management, accounting and data coordination
