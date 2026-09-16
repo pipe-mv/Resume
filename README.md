@@ -1,70 +1,59 @@
-# Personal Portfolio site
+# Felipe Marin Portfolio
 
-This project is my personal resume or portfolio
+Personal portfolio and downloadable resume for Felipe Marin, a Full-Stack
+Developer. The site highlights selected web and mobile projects, technical
+experience, professional background, and contact information.
 
-## Available Scripts
+## Live site
 
-In the project directory, you can run:
+[https://pipe-mv.github.io/Resume/](https://pipe-mv.github.io/Resume/)
 
-### `npm start`
+## Documentation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Architecture guide](./ARCHITECTURE.md) — application structure, data flows,
+  styling, external services, and deployment.
+- [Agent guide](./AGENTS.md) — repository rules, source-of-truth locations,
+  validation requirements, and pull-request conventions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology stack
 
-### `npm test`
+- React 19
+- Vite 6
+- Vitest and Testing Library
+- Plain CSS
+- GitHub Actions and GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Local development
 
-### `npm run build`
+Node.js 20 or newer is required.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm ci
+npm run dev
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Vite prints the local development URL in the terminal, normally
+`http://localhost:5173/Resume/`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Validation
 
-### `npm run eject`
+```bash
+npm test
+npm run build
+git diff --check
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The production build is written to `dist/`. To inspect it locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run preview
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Pull requests targeting `master` are tested and built by GitHub Actions. After a
+successful merge to `master`, the same workflow builds and deploys the site to
+GitHub Pages automatically.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Vite base path is `/Resume/`; changing it will break production asset URLs
+unless the hosting path changes at the same time.
